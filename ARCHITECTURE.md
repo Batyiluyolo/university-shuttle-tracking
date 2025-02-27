@@ -72,10 +72,5 @@ Since this is an architectural design, the following technologies are proposed:
 ## 4. Deployment Strategy
 This system is intended to be cloud-hosted for scalability and reliability. Possible hosting solutions include AWS, Firebase, or DigitalOcean.
 
----
 
-## Submission
-- Submit the GitHub repository link via Blackboard.
-- Ensure all required documentation (README.md, SPECIFICATION.md, ARCHITECTURE.md) is included.
-- Include all necessary C4 diagrams.
 
