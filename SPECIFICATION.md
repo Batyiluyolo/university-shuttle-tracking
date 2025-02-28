@@ -35,6 +35,7 @@ This is a conceptual design; the following technologies could be used:
 
 ## 5. Use Case Diagram
 The use case diagram will illustrate interactions between students, drivers, and administrators in the system.
+
 @startuml
 left to right direction
 
