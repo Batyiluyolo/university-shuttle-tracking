@@ -32,3 +32,32 @@ This is a conceptual design; the following technologies could be used:
 - Backend: Node.js with Express
 - Database: PostgreSQL
 - GPS Tracking API: Google Maps API
+
+## 5. Use Case Diagram
+The use case diagram will illustrate interactions between students, drivers, and administrators in the system.
+@startuml
+left to right direction
+
+actor "Student" as student
+actor "Administrator" as admin
+actor "Shuttle Driver" as driver
+
+rectangle "University Shuttle Tracking System" {
+    usecase "Track Shuttle Location" as UC_Track
+    usecase "View Routes" as UC_Routes
+    usecase "Book a Shuttle" as UC_Book
+    usecase "Update Shuttle Location" as UC_Update
+    usecase "Manage Schedules & Routes" as UC_Manage
+}
+
+student -[hidden]--> UC_Track
+admin -[hidden]--> UC_Manage
+
+student -left-> UC_Track
+student -left-> UC_Routes
+student -left-> UC_Book
+
+driver -right-> UC_Update
+admin -right-> UC_Manage
+@enduml
+
