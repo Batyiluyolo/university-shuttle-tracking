@@ -6,7 +6,7 @@
 **University Transportation**
 
 ### Problem Statement
-Many universities face challenges with shuttle services, such as lack of real-time tracking, inefficient route management, and unreliable schedules. This system aims to provide a user-friendly platform for students and staff to track shuttle locations and schedules in real time.
+Some universities face challenges with shuttle services, such as lack of real-time tracking, inefficient route management, and unreliable schedules. This system aims to provide a user-friendly platform for students and staff to track shuttle locations and schedules in real time.
 
 ### Scope & Feasibility
 The system will feature:
