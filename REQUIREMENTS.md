@@ -1,29 +1,27 @@
-# System Requirements Document (SRD) - University Shuttle Tracking System
+# System Requirements Document (SRD) - CPUT Shuttle Tracking Web App
 
 ## **1. Functional Requirements**
 The system shall provide the following capabilities:
 
-1. **Real-Time Tracking** - The system shall allow students to track shuttle locations in real time.
-2. **Route Management** - The administrator shall be able to modify shuttle routes dynamically.
-3. **Shuttle Schedules** - The system shall display shuttle departure and arrival schedules.
-4. **Driver Location Updates** - The system shall allow drivers to update their location every 30 seconds.
-5. **User Authentication** - The system shall support secure login for students, drivers, and admins.
-6. **Notification System** - The system shall send notifications for shuttle delays or route changes.
-7. **Emergency Alerts** - The system shall allow security to send emergency alerts to all users.
-8. **Historical Data Logs** - The system shall store shuttle movement history for at least 30 days.
-9. **Mobile & Web Access** - The system shall be accessible via mobile and desktop devices.
-10. **Multilingual Support** - The system shall support English and other regional languages.
+1. **Real-Time Shuttle Tracking** – The system shall allow students to track shuttle locations in real-time using GPS and a Telegram bot.  
+2. **Schedule Management** – Administrators shall be able to update shuttle schedules dynamically via Google Sheets.  
+3. **Route Selection** – Students shall be able to select shuttle routes and view estimated arrival times.  
+4. **Driver Location Updates** – Shuttle drivers shall be able to update their location every 30 seconds using the Telegram bot.  
+5. **User Authentication** – The system shall provide secure login for students, drivers, and administrators.  
+6. **Notifications & Alerts** – The system shall send alerts for shuttle delays, schedule changes, and emergency notifications.  
+7. **Historical Data Logs** – The system shall store past shuttle movement history for at least 30 days.  
+8. **Mobile & Web Compatibility** – The system shall be accessible via both web and mobile devices.  
+9. **Google Maps Integration** – The system shall display shuttle locations and routes using Google Maps.  
+10. **Access to CPUT Resources** – The system shall provide links to the CPUT website and shuttle service provider (GHTS) for additional resources.  
 
 ## **2. Non-Functional Requirements**
 | **Category**     | **Requirement** |
 |-----------------|----------------|
-| **Usability**   | The system shall have an intuitive UI with a maximum of 3 clicks to access key features. |
-| **Deployability** | The system shall be deployable on Windows and Linux servers. |
-| **Maintainability** | The system shall have documentation for future API integrations. |
-| **Scalability** | The system shall support 1,000 concurrent users without performance degradation. |
+| **Usability**   | The system shall provide a clean, intuitive UI where users can access shuttle details with a maximum of 3 clicks. |
+| **Deployability** | The system shall be deployable on both Windows and Linux servers. |
+| **Maintainability** | The system documentation shall include an API guide for future integrations. |
+| **Scalability** | The system shall support at least 1,000 concurrent users without performance degradation. |
 | **Security** | All user data shall be encrypted using AES-256 encryption. |
-| **Performance** | The system shall load tracking results within 2 seconds. |
-| **Reliability** | The system shall have a 99.9% uptime guarantee. |
-| **Accessibility** | The system shall comply with WCAG 2.1 accessibility standards. |
-
-
+| **Performance** | The system shall fetch and display shuttle locations within 2 seconds of an update. |
+| **Reliability** | The system shall have an uptime of at least 99.9% to ensure continuous service. |
+| **Accessibility** | The system shall comply with WCAG 2.1 accessibility standards for visually impaired users. |
