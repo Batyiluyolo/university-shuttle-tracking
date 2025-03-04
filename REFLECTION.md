@@ -1,16 +1,22 @@
-## **Reflection on Challenges Faced**
+# Reflection: Challenges in Balancing Stakeholder Needs
 
-### **1. Balancing Stakeholder Needs**
-- **Students need real-time tracking**, but **IT staff want to limit server load** → Solution: Optimize GPS update frequency.
-- **Drivers need simple interfaces**, but **administrators want detailed logs** → Solution: Create role-based interfaces.
+## **1. Key Challenges**
+### **1.1 Conflicting Requirements**
+- **Students** require **real-time tracking**, but **IT staff** raised concerns about **high server load** due to frequent GPS updates.  
+- **Shuttle drivers** wanted a **simple location update system**, but **admins** needed **highly accurate GPS data**, creating a usability vs. precision trade-off.  
+- **Campus security** required **constant location logs** for emergency tracking, but **privacy policies** limited long-term data storage.  
 
-### **2. Managing Conflicting Requirements**
-- **Security personnel require emergency tracking**, but **privacy policies limit constant tracking** → Solution: Allow opt-in tracking for emergencies.
-- **Management wants cost efficiency**, but **high accuracy in GPS requires expensive cloud services** → Solution: Use hybrid cloud-local tracking.
+### **1.2 Technical Constraints**
+- Implementing **low-latency GPS tracking** required **high-performance backend servers**, but this increased **hosting costs**.  
+- **Ensuring scalability** to **handle 1,000+ users** was difficult without dedicated cloud infrastructure.  
 
-### **3. Technical and Usability Trade-offs**
-- **Deploying the system on both web & mobile increases complexity** → Solution: Use a responsive web design instead of separate apps.
-- **Fast data updates may slow performance** → Solution: Cache static data and update only necessary elements.
+### **1.3 Security vs Usability**
+- **Two-factor authentication** improved security but slowed down login processes for students and drivers.  
+- Encrypting location data increased security but introduced slight delays in **fetching GPS updates**.  
 
-### **Final Thoughts**
-This project required careful balancing of user needs while ensuring feasibility. Agile updates will help refine the system based on real-world feedback.
+---
+
+## **2. Lessons Learned**
+- **Trade-offs Are Necessary** – The final system balanced usability, performance, and security.  
+- **Stakeholder Involvement is Crucial** – Frequent feedback from students, drivers, and administrators helped refine requirements.  
+- **Scalability Should Be Considered Early** – Planning for future expansion early prevented major architectural changes later.  
