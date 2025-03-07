@@ -1,4 +1,4 @@
-# System Requirements Document (SRD) - CPUT Shuttle Tracking Web App
+# System Requirements Document (SRD) - University Shuttle Tracking System
 
 ## **1. Functional Requirements**
 The system shall provide the following capabilities:
