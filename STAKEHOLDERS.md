@@ -1,4 +1,4 @@
-# Stakeholder Analysis - CPUT Shuttle Tracking Web App
+# Stakeholder Analysis - University Shuttle Tracking System
 
 ## **Stakeholder Table**
 | **Stakeholder**        | **Role**                                      | **Key Concerns**                              | **Pain Points**                                   | **Success Metrics** |
