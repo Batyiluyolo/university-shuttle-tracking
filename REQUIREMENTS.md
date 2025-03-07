@@ -3,7 +3,7 @@
 ## **1. Functional Requirements**
 The system shall provide the following capabilities:
 
-1. **Real-Time Shuttle Tracking** – The system shall allow students to track shuttle locations in real-time using GPS and a Telegram bot.  
+1. **Real-Time Shuttle Tracking** – The system shall allow students to track shuttle locations in real-time using GPS.  
 2. **Schedule Management** – Administrators shall be able to update shuttle schedules dynamically via Google Sheets.  
 3. **Route Selection** – Students shall be able to select shuttle routes and view estimated arrival times.  
 4. **Driver Location Updates** – Shuttle drivers shall be able to update their location every 30 seconds using the Telegram bot.  
