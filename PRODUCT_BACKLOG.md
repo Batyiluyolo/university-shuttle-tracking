@@ -1,6 +1,6 @@
-# 📌 Prioritized Product Backlog – CPUT Shuttle Tracking Web App  
+# Prioritized Product Backlog – CPUT Shuttle Tracking Web App  
 
-## 🔥 **Must Have (M) – Essential for MVP (Minimum Viable Product)**  
+## **Must Have (M) – Essential for MVP (Minimum Viable Product)**  
 These user stories are **critical** for the system to function. They must be completed in early sprints.  
 
 | ID  | User Story | Story Points |
@@ -14,7 +14,7 @@ These user stories are **critical** for the system to function. They must be com
 
 ---
 
-## 🔹 **Should Have (S) – Important but Not Critical**  
+## **Should Have (S) – Important but Not Critical**  
 These user stories **enhance** the system but are **not required** for the initial release.  
 
 | ID  | User Story | Story Points |
@@ -25,7 +25,7 @@ These user stories **enhance** the system but are **not required** for the initi
 
 ---
 
-## 🟢 **Could Have (C) – Nice to Have but Not Essential**  
+## **Could Have (C) – Nice to Have but Not Essential**  
 These user stories add **extra functionality** but can be implemented **in later versions**.  
 
 | ID  | User Story | Story Points |
@@ -36,18 +36,11 @@ These user stories add **extra functionality** but can be implemented **in later
 
 ---
 
-## 📌 **Explanation of Prioritization:**
+## **Explanation of Prioritization:**
 - **🔥 Must Have (M)** → These are essential system features needed for launch.  
 - **🔹 Should Have (S)** → Important but **not critical** for launch.  
 - **🟢 Could Have (C)** → Nice-to-have features that can be implemented later.  
 
 ---
 
-### 📂 **Next Steps to Submit:**
-✅ **Replace the old `PRODUCT_BACKLOG.md` file with this version.**  
-✅ **Push the updated file to GitHub:**
-```bash
-git add PRODUCT_BACKLOG.md
-git commit -m "Updated Prioritized Product Backlog (Assignment 6)"
-git push origin main
 
