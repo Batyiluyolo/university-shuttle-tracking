@@ -1,13 +1,13 @@
-# 🚀 Sprint Plan – CPUT Shuttle Tracking Web App  
+#  Sprint Plan – CPUT Shuttle Tracking Web App  
 
-## **📌 Sprint Name:** Sprint 1  
-## **📅 Duration:** 2 Weeks (14 Days)  
-## **🎯 Sprint Goal:**  
+## ** Sprint Name:** Sprint 1  
+## ** Duration:** 2 Weeks (14 Days)  
+## ** Sprint Goal:**  
 The goal of this sprint is to develop the **core functionalities** that allow students to track shuttles in real-time and for shuttle drivers to update their locations accurately.
 
 ---
 
-## **🔹 Selected User Stories for Sprint 1**  
+## ** Selected User Stories for Sprint 1**  
 The following **Must Have (M)** user stories are included in this sprint:  
 
 | ID  | User Story | Story Points |
@@ -18,11 +18,11 @@ The following **Must Have (M)** user stories are included in this sprint:
 | US4  | As an **Administrator**, I want to manage shuttle schedules and routes effectively so that shuttle operations run smoothly. | 13 |
 | US9  | As a **System**, I must securely authenticate users to protect data privacy and integrity. | 8 |
 
-📌 **Total Sprint Capacity:** **42 Story Points** (based on team capacity).
+**Total Sprint Capacity:** **42 Story Points** (based on team capacity).
 
 ---
 
-## **📌 Sprint Backlog – Task Breakdown**  
+## ** Sprint Backlog – Task Breakdown**  
 Each user story is broken down into **smaller development tasks** to track progress.
 
 | **Task ID** | **User Story ID** | **Task Description** | **Assigned To** | **Status** |
@@ -39,11 +39,11 @@ Each user story is broken down into **smaller development tasks** to track progr
 | T1-10 | US9 | Implement user authentication system (login/logout) | Security Dev | To Do |
 | T1-11 | US9 | Secure API with authentication tokens | Security Dev | To Do |
 
-📌 **Status Options:** **To Do, In Progress, Done**
+**Status Options:** **To Do, In Progress, Done**
 
 ---
 
-## **📌 Sprint Workflow**
+## ** Sprint Workflow**
 - **Task Tracking:** Tasks will be tracked manually based on the sprint backlog.  
 - **Daily Standups:** Team members will provide updates on task progress.  
 - **Sprint Review:** At the end of the sprint, completed features will be reviewed.  
@@ -51,13 +51,13 @@ Each user story is broken down into **smaller development tasks** to track progr
 
 ---
 
-## **📌 How to Track Progress?**
+## ** How to Track Progress?**
 - Progress will be monitored manually based on task completion.  
 - Tasks will move through **three stages: "To Do" → "In Progress" → "Done"**.  
 
 ---
 
-## **🎯 Sprint Success Criteria**
+## ** Sprint Success Criteria**
 ✅ Students can track shuttles in real-time.  
 ✅ Drivers can update their locations.  
 ✅ Administrators can manage schedules.  
