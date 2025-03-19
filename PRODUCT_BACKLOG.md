@@ -37,9 +37,9 @@ These user stories add **extra functionality** but can be implemented **in later
 ---
 
 ## **Explanation of Prioritization:**
-- **🔥 Must Have (M)** → These are essential system features needed for launch.  
-- **🔹 Should Have (S)** → Important but **not critical** for launch.  
-- **🟢 Could Have (C)** → Nice-to-have features that can be implemented later.  
+- ** Must Have (M)** → These are essential system features needed for launch.  
+- ** Should Have (S)** → Important but **not critical** for launch.  
+- ** Could Have (C)** → Nice-to-have features that can be implemented later.  
 
 ---
 
