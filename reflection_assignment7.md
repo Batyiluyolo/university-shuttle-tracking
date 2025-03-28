@@ -19,7 +19,7 @@ In the end, I chose the **Basic Kanban template** and added my own workflow stag
 
 ### 2.2 Working with GitHub Projects (Beta)
 
-The new GitHub Projects interface was a bit confusing at first. It didn’t show the board layout right away, and I had to **switch from Table view to Board view** to begin setting up a proper Kanban workflow. Once I figured that out, everything became easier.
+The new GitHub Projects interface was a bit confusing at first. It didn’t show the board layout right away, and I had to switch from Table view to Board view to begin setting up a proper Kanban workflow. Once I figured that out, everything became easier.
 
 ### 2.3 Creating and Linking Issues
 
@@ -28,7 +28,7 @@ Another challenge was managing the details for each issue:
 - Assigning the correct labels
 - Linking issues to the board and moving them to the right column
 
-At first, I couldn't find the right labels like `feature`, so I used the default **enhancement** label, which worked well.
+At first, I couldn't find the right labels like `feature`, so I used the default enhancement label, which worked well.
 
 ---
 
@@ -36,7 +36,7 @@ At first, I couldn't find the right labels like `feature`, so I used the default
 
 ### 🆚 Trello:
 - Trello is very easy to use and very visual.
-- But it lacks **GitHub integration**, which means tracking code and tasks together is harder.
+- But it lacks GitHub integration, which means tracking code and tasks together is harder.
 
 ### 🆚 Jira:
 - Jira is powerful and made for large Agile teams.
