@@ -2,7 +2,7 @@
 
 ## 📌 1. Introduction
 
-In this assignment, I focused on selecting a suitable GitHub project template and creating a custom Kanban board to manage an Agile sprint for the **University Shuttle Tracking Web App**. This involved comparing different templates, customizing workflow columns, linking issues, assigning tasks, and tracking progress visually. This reflection covers the experience, challenges, and lessons learned.
+In this assignment, I focused on selecting a suitable GitHub project template and creating a custom Kanban board to manage an Agile sprint for the University Shuttle Tracking Web App. This involved comparing different templates, customizing workflow columns, linking issues, assigning tasks, and tracking progress visually. This reflection covers the experience, challenges, and lessons learned.
 
 ---
 
