@@ -1,4 +1,4 @@
-# Kanban Board Explanation – CPUT Shuttle Tracking Web App
+# Kanban Board Explanation – University Shuttle Tracking Web App
 
 ## What is a Kanban Board?
 
