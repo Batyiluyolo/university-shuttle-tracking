@@ -56,10 +56,10 @@ Each task (e.g., `T1-01`, `T1-02`) is linked to an issue that is also part of th
 
 ## Benefits of Using GitHub Projects for Agile
 
-- 💻 Integrated with Issues and Pull Requests
-- 📊 Clean UI for organizing sprint tasks
-- 🛠️ Easy to customize (add/remove columns)
-- 🔗 Automatically links to issues for better traceability
+- Integrated with Issues and Pull Requests
+- Clean UI for organizing sprint tasks
+- 🛠Easy to customize (add/remove columns)
+- Automatically links to issues for better traceability
 
 ---
 
