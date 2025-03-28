@@ -1,10 +1,10 @@
-# 📌 Template Analysis – GitHub Project Templates for Agile Development
+# Template Analysis – GitHub Project Templates for Agile Development
 
 In this section, I evaluate three GitHub project templates suitable for Agile project management and select the one most aligned with the needs of the **CPUT Shuttle Tracking Web App** project.
 
 ---
 
-## 🔍 Comparison of GitHub Project Templates
+## Comparison of GitHub Project Templates
 
 | Template Name          | Columns Included                        | Strengths                                                                 | Weaknesses                                                              | Suitable For                    |
 |------------------------|-----------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------|---------------------------------|
@@ -14,7 +14,7 @@ In this section, I evaluate three GitHub project templates suitable for Agile pr
 
 ---
 
-## ✅ Selected Template: **Basic Kanban Board (with Customization)**
+## Selected Template: **Basic Kanban Board (with Customization)**
 
 ### **Justification:**
 I chose the **Basic Kanban Board** because:
@@ -24,13 +24,13 @@ I chose the **Basic Kanban Board** because:
   - **"Blocked"**
 - It helps visualize the workflow clearly without unnecessary complexity.
 
-### 🔧 Customizations Planned:
+### Customizations Planned:
 - Add new columns: **"Ready for Review", "Testing", "Blocked"**.
 - Assign issues and use labels like `bug`, `feature`, etc.
 - Manually move tasks between stages as work progresses.
 
 ---
 
-## ✅ Conclusion:
+## Conclusion:
 While automated and Scrum templates are useful for large teams or formal Agile setups, the **customized Basic Kanban** provides the **best balance between simplicity and visibility** for tracking progress in this student-led sprint.
 
