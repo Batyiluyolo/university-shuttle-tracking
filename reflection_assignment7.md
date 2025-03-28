@@ -1,19 +1,19 @@
-# 🧠 Reflection – Assignment 7: GitHub Project Templates & Kanban Board
+# Reflection – Assignment 7: GitHub Project Templates & Kanban Board
 
-## 📌 1. Introduction
+## 1. Introduction
 
 In this assignment, I focused on selecting a suitable GitHub project template and creating a custom Kanban board to manage an Agile sprint for the University Shuttle Tracking Web App. This involved comparing different templates, customizing workflow columns, linking issues, assigning tasks, and tracking progress visually. This reflection covers the experience, challenges, and lessons learned.
 
 ---
 
-## 🚧 2. Challenges Faced
+## 2. Challenges Faced
 
 ### 2.1 Choosing the Right Template
 
 Initially, I found it difficult to decide between GitHub’s **Basic Kanban**, **Automated Kanban**, and **Scrum** templates. Each had pros and cons:
 - Scrum was too rigid for a solo academic project.
 - Automated Kanban didn’t give me the flexibility I wanted.
-- Basic Kanban was easy to use and allowed me to **customize columns manually**.
+- Basic Kanban was easy to use and allowed me to customize columns manually.
 
 In the end, I chose the **Basic Kanban template** and added my own workflow stages like **Blocked** and **Testing**.
 
@@ -32,36 +32,36 @@ At first, I couldn't find the right labels like `feature`, so I used the default
 
 ---
 
-## ✅ 3. GitHub Projects vs Other Tools
+## 3. GitHub Projects vs Other Tools
 
-### 🆚 Trello:
+### Trello:
 - Trello is very easy to use and very visual.
 - But it lacks GitHub integration, which means tracking code and tasks together is harder.
 
-### 🆚 Jira:
+### Jira:
 - Jira is powerful and made for large Agile teams.
 - However, it's too heavy for small solo projects and requires more setup.
 
-### ✅ GitHub Projects:
+### GitHub Projects:
 - Simple, lightweight, and integrated with GitHub Issues
 - No need to switch between tools
 - Easy to manage sprints directly in the same repo
 
-For this project, GitHub Projects was the most **practical and efficient choice**.
+For this project, GitHub Projects was the most practical and efficient choice.
 
 ---
 
-## 📈 4. Lessons Learned
+## 4. Lessons Learned
 
-- I learned how to **analyze templates** and select the right one based on project needs.
-- I gained hands-on experience creating a **Kanban board** that reflects a real Agile workflow.
-- I now understand how to **create and track issues**, assign them, and monitor progress.
-- I also learned how to reflect delays and blockers by using the **Blocked** column.
-- Overall, this improved my confidence in **Agile project management** using real tools.
+- I learned how to analyze templates and select the right one based on project needs.
+- I gained hands-on experience creating a Kanban board that reflects a real Agile workflow.
+- I now understand how to create and track issues, assign them, and monitor progress.
+- I also learned how to reflect delays and blockers by using the Blocked column.
+- Overall, this improved my confidence in Agile project management using real tools.
 
 ---
 
-## 🏁 5. Conclusion
+## 5. Conclusion
 
 This assignment helped me turn theoretical Agile planning into actual practice using GitHub Projects. The experience of building a custom Kanban board, managing sprint tasks, and reflecting on the process made Agile methodology feel more real and practical. I now feel ready to use this approach in future team or industry projects.
 
