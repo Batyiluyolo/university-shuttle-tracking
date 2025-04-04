@@ -22,15 +22,18 @@ stateDiagram-v2
     InTransit --> Offline : GPS Signal Lost
     Offline --> Idle : Signal Restored
 
-📝 Explanation:
+---
+
+📝 Explanation
 The Idle state represents a shuttle that is available but not currently transporting passengers.
 When a trip is assigned, the shuttle transitions to the In Transit state.
 Upon completing the trip, the shuttle returns to Idle.
 If at any point the GPS signal is lost, the shuttle enters the Offline state.
 When the signal is restored, the shuttle returns to Idle.
+
 This state model enables the system to handle live tracking, trip status management, and GPS connectivity issues effectively.
 
-🔗 Related Functional Requirements / User Stories / Sprint Tasks:
+🔗 Related Functional Requirements / User Stories / Sprint Tasks
 FR2 – The system shall track the shuttle’s live location.
 FR4 – The driver shall update their shuttle status (Idle, In Transit).
 User Story US1 – As a Student, I want to track shuttle locations in real-time so I can plan accordingly.
