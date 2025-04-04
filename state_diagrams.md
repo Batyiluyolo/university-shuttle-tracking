@@ -1,4 +1,3 @@
-```md
 # 🚦 State Transition Diagrams – University Shuttle Tracking Web App
 
 This document includes state diagrams for key objects in the system, each followed by:
@@ -22,6 +21,3 @@ stateDiagram-v2
     Idle --> Offline : GPS Signal Lost
     InTransit --> Offline : GPS Signal Lost
     Offline --> Idle : Signal Restored
-markdown
-Copy
-Edit
