@@ -7,13 +7,14 @@
 
 ```mermaid
 flowchart TD
-    A[Open Shuttle Tracking Web App] --> B[Login (if required)]
+    A[Open Shuttle Tracking Web App] --> B[Login if required]
     B --> C[Select Shuttle or Route]
     C --> D[Send request to Backend API]
     D --> E[API fetches real-time location from GPS]
     E --> F[Location data returned to frontend]
     F --> G[Display shuttle position on map]
     G --> H[Student views map and plans trip]
+
 ```
 
 ---
