@@ -21,3 +21,5 @@ stateDiagram-v2
     Idle --> Offline : GPS Signal Lost
     InTransit --> Offline : GPS Signal Lost
     Offline --> Idle : Signal Restored
+
+gh
