@@ -9,7 +9,7 @@
 flowchart TD
     A[Admin logs into dashboard] --> B[Navigates to Route Management]
     B --> C[Selects an existing route]
-    C --> D[Edits route details (stops, path)]
+    C --> D[Edit route details - stops and path] 
     D --> E[Saves the updated route]
     E --> F[System validates and updates database]
     F --> G[Updated route becomes active]
