@@ -47,6 +47,3 @@ User Story US3 – As a Shuttle Driver, I want to update my shuttle’s location
 Sprint Task T1-02 – Implement GPS API to fetch shuttle location.  
 Sprint Task T1-03 – Display shuttle position on map.
 
----
-
-✅ *Diagram by: **Luyolo Batyi***
