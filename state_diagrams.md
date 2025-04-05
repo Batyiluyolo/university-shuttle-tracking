@@ -47,3 +47,21 @@ User Story US3 – As a Shuttle Driver, I want to update my shuttle’s location
 Sprint Task T1-02 – Implement GPS API to fetch shuttle location.  
 Sprint Task T1-03 – Display shuttle position on map.
 
+---
+---
+
+## 🧾 2. State Transition Diagram – Trip
+
+### 🎯 Object: Trip
+
+This state diagram shows the lifecycle of a Trip within the University Shuttle Tracking Web App.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Created
+    Created --> Scheduled : Assign Shuttle & Time
+    Scheduled --> InProgress : Start Trip
+    InProgress --> Completed : End Trip
+    Created --> Cancelled : Cancelled by Admin
+    Scheduled --> Cancelled : Cancelled before Departure
+    InProgress --> Cancelled : Emergency Cancellation
