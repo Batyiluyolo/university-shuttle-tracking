@@ -14,7 +14,6 @@ flowchart TD
     E --> F[Location data returned to frontend]
     F --> G[Display shuttle position on map]
     G --> H[Student views map and plans trip]
-
 ```
 
 ---
@@ -39,4 +38,3 @@ This interaction supports the student's need to plan efficiently by offering up-
 ---
 
 ✅ *Diagram by: **Luyolo Batyi***
-
