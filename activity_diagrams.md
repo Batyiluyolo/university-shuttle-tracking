@@ -1,9 +1,9 @@
 
 ---
 
-## 🧭 1. Activity Diagram – Student Checks Shuttle Location
+## 1. Activity Diagram – Student Checks Shuttle Location
 
-### 🎯 Scenario: A student opens the web app to view the shuttle's real-time position and route.
+### Scenario: A student opens the web app to view the shuttle's real-time position and route.
 
 ```mermaid
 flowchart TD
@@ -18,7 +18,7 @@ flowchart TD
 
 ---
 
-### 📝 Explanation
+### Explanation
 
 This activity represents the student’s flow from accessing the shuttle web app to successfully viewing a live shuttle location on the map.  
 The process includes selecting a route, requesting GPS data from the backend, and displaying that data in real-time.
@@ -27,7 +27,7 @@ This interaction supports the student's need to plan efficiently by offering up-
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 - **FR2** – The system shall track and display the shuttle’s live location.  
 - **FR3** – The system shall allow students to select a shuttle or route.  
@@ -40,9 +40,9 @@ This interaction supports the student's need to plan efficiently by offering up-
 
 ---
 
-## 🚐 2. Activity Diagram – Driver Updates Shuttle Location
+## 2. Activity Diagram – Driver Updates Shuttle Location
 
-### 🎯 Scenario: A driver logs in and the system tracks their GPS location periodically.
+### Scenario: A driver logs in and the system tracks their GPS location periodically.
 
 ```mermaid
 flowchart TD
@@ -57,7 +57,7 @@ flowchart TD
 
 ---
 
-### 📝 Explanation
+### Explanation
 
 This activity captures how the driver interacts with the shuttle system to enable location tracking.  
 Upon successful login, the app initiates real-time GPS tracking and sends coordinates at regular intervals to the backend.  
@@ -67,7 +67,7 @@ This flow is essential for maintaining live shuttle visibility.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 - **FR4** – The driver shall update their shuttle status and location.  
 - **FR2** – The system shall track and display shuttle live location.  
@@ -79,9 +79,9 @@ This flow is essential for maintaining live shuttle visibility.
 
 ---
 
-## 🗓️ 3. Activity Diagram – Administrator Manages Shuttle Schedule
+## 3. Activity Diagram – Administrator Manages Shuttle Schedule
 
-### 🎯 Scenario: An administrator creates or updates a shuttle schedule.
+### Scenario: An administrator creates or updates a shuttle schedule.
 
 ```mermaid
 flowchart TD
@@ -96,7 +96,7 @@ flowchart TD
 
 ---
 
-### 📝 Explanation
+### Explanation
 
 This activity diagram represents how an administrator manages shuttle schedules through the web app dashboard.  
 Admins can create or modify schedules, save changes, and publish them for public viewing.  
@@ -106,7 +106,7 @@ This flow supports efficient schedule maintenance and system transparency.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 - **FR10** – The system shall allow administrators to create and update schedules.  
 - **FR11** – The system shall archive old schedules for reference.  
@@ -118,9 +118,9 @@ This flow supports efficient schedule maintenance and system transparency.
 
 ---
 
-## 🔐 4. Activity Diagram – User Logs Into the System
+## 4. Activity Diagram – User Logs Into the System
 
-### 🎯 Scenario: A user accesses the shuttle tracking system by logging in securely.
+### Scenario: A user accesses the shuttle tracking system by logging in securely.
 
 ```mermaid
 flowchart TD
@@ -134,7 +134,7 @@ flowchart TD
 
 ---
 
-### 📝 Explanation
+### Explanation
 
 This activity diagram shows the login flow for a system user.  
 Users provide their credentials, and the system validates them.  
@@ -144,7 +144,7 @@ This flow ensures secure access control and user verification.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 - **FR1** – The system shall authenticate all users before access.  
 - **User Story US11** – As a User, I want to log in securely so that I can access features meant for me.  
@@ -155,9 +155,9 @@ This flow ensures secure access control and user verification.
 
 ---
 
-## 🚌 5. Activity Diagram – Shuttle Trip Lifecycle
+## 5. Activity Diagram – Shuttle Trip Lifecycle
 
-### 🎯 Scenario: A scheduled trip is initiated by the driver and completed once the route ends.
+### Scenario: A scheduled trip is initiated by the driver and completed once the route ends.
 
 ```mermaid
 flowchart TD
@@ -171,7 +171,7 @@ flowchart TD
 
 ---
 
-### 📝 Explanation
+### Explanation
 
 This diagram outlines the key actions involved in a shuttle trip.  
 It starts when a trip is scheduled by the admin and proceeds through driver actions and system state updates.  
@@ -181,7 +181,7 @@ This ensures an accurate and reliable trip monitoring process.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 - **FR5** – The system shall manage shuttle trip lifecycle.  
 - **FR2** – The system shall track shuttle location during trips.  
@@ -194,9 +194,9 @@ This ensures an accurate and reliable trip monitoring process.
 
 ---
 
-## 🛣️ 6. Activity Diagram – Admin Updates a Route
+## 6. Activity Diagram – Admin Updates a Route
 
-### 🎯 Scenario: An administrator updates an existing shuttle route in the system.
+### Scenario: An administrator updates an existing shuttle route in the system.
 
 ```mermaid
 flowchart TD
@@ -210,7 +210,7 @@ flowchart TD
 
 ---
 
-### 📝 Explanation
+### Explanation
 
 This activity outlines how an admin updates a route.  
 After selecting an existing route, they make changes such as modifying stops or paths.  
@@ -220,7 +220,7 @@ This process ensures route accuracy and reflects any operational changes.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 - **FR12** – The system shall allow admins to update routes.  
 - **User Story US10** – As an Administrator, I want to modify routes so I can adapt to operational needs.  
@@ -230,9 +230,9 @@ This process ensures route accuracy and reflects any operational changes.
 
 ---
 
-## 📡 7. Activity Diagram – GPS Signal Lost and Recovered
+## 7. Activity Diagram – GPS Signal Lost and Recovered
 
-### 🎯 Scenario: The shuttle temporarily loses GPS signal and then regains connection.
+### Scenario: The shuttle temporarily loses GPS signal and then regains connection.
 
 ```mermaid
 flowchart TD
@@ -248,7 +248,7 @@ flowchart TD
 
 ---
 
-### 📝 Explanation
+### Explanation
 
 This activity shows how the system handles GPS signal loss and recovery.  
 When signal drops, the shuttle is flagged as outdated and alerts are raised.  
@@ -258,7 +258,7 @@ This ensures reliability and resilience in live tracking.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 - **FR13** – The system shall detect and display GPS signal issues.  
 - **FR2** – The system shall resume location updates after reconnection.  
@@ -270,9 +270,9 @@ This ensures reliability and resilience in live tracking.
 
 ---
 
-## 👤 8. Activity Diagram – User Manages Their Account
+## 8. Activity Diagram – User Manages Their Account
 
-### 🎯 Scenario: A user updates their profile details and changes their password.
+### Scenario: A user updates their profile details and changes their password.
 
 ```mermaid
 flowchart TD
@@ -291,7 +291,7 @@ flowchart TD
 
 ---
 
-### 📝 Explanation
+### Explanation
 
 This activity shows how users manage their account settings.  
 They can update personal details or change their password.  
@@ -301,7 +301,7 @@ This supports account security and personalization features.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 - **FR8** – The system shall allow users to update account details.  
 - **FR9** – The system shall allow users to change their password securely.  
