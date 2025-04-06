@@ -1,16 +1,16 @@
 
-# 🚦 State Transition Diagrams – University Shuttle Tracking Web App
+# State Transition Diagrams – University Shuttle Tracking Web App
 
 This document includes state diagrams for key objects in the system, each followed by:
 
-- 📝 Explanation of the object’s state changes  
-- 🔗 Related functional requirements, user stories, and sprint tasks
+- Explanation of the object’s state changes  
+- Related functional requirements, user stories, and sprint tasks
 
 ---
 
-## 🚍 1. State Transition Diagram – Shuttle
+## 1. State Transition Diagram – Shuttle
 
-### 🎯 Object: Shuttle
+### Object: Shuttle
 
 This state diagram shows the lifecycle of a shuttle during its operation in the University Shuttle Tracking Web App.
 
@@ -26,7 +26,7 @@ stateDiagram-v2
 
 ---
 
-### 📝 Explanation
+### Explanation
 
 The Idle state represents a shuttle that is available but not currently transporting passengers.  
 When a trip is assigned, the shuttle transitions to the In Transit state.  
@@ -38,7 +38,7 @@ This state model enables the system to handle live tracking, trip status managem
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 FR2 – The system shall track the shuttle’s live location.  
 FR4 – The driver shall update their shuttle status (Idle, In Transit).  
@@ -50,9 +50,9 @@ Sprint Task T1-03 – Display shuttle position on map.
 ---
 ---
 
-## 🧾 2. State Transition Diagram – Trip
+## 2. State Transition Diagram – Trip
 
-### 🎯 Object: Trip
+### Object: Trip
 
 This state diagram shows the lifecycle of a Trip within the University Shuttle Tracking Web App.
 
@@ -68,7 +68,7 @@ stateDiagram-v2
 ```
 
 ---
-### 📝 Explanation
+### Explanation
 
 A Trip starts in the Created state when an admin or system schedules a new route.  
 Once a time and shuttle are assigned, it moves to Scheduled.  
@@ -81,7 +81,7 @@ This model ensures the system properly tracks trip creation, scheduling, and can
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 FR5 – The system shall allow administrators to schedule and cancel trips.  
 User Story US2 – As an Administrator, I want to manage shuttle trips so that I can coordinate transport efficiently.  
@@ -93,9 +93,9 @@ Sprint Task T1-06 – Implement trip lifecycle state tracking.
 
 ---
 
-## 🧑‍✈️ 3. State Transition Diagram – Driver
+## 3. State Transition Diagram – Driver
 
-### 🎯 Object: Driver
+### Object: Driver
 
 This state diagram represents how a shuttle driver’s system state changes during login, trip assignment, and logout phases.
 
@@ -111,7 +111,7 @@ stateDiagram-v2
     Offline --> Inactive : Forced Logout
 ```
 
-### 📝 Explanation
+### Explanation
 
 A Driver begins in the **Inactive** state when logged out.  
 When they log in, they become **Available** to take on a trip.  
@@ -125,7 +125,7 @@ This state model helps the system reflect accurate driver availability and relia
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 FR6 – The system shall allow drivers to update their trip status.  
 FR7 – The system shall detect driver connection status.  
@@ -138,9 +138,9 @@ Sprint Task T1-08 – Handle driver disconnection and reconnection states.
 
 ---
 
-## 👤 4. State Transition Diagram – User Account
+## 4. State Transition Diagram – User Account
 
-### 🎯 Object: User Account
+### Object: User Account
 
 This state diagram outlines the lifecycle of a user's account from registration to potential deactivation or deletion.
 
@@ -156,7 +156,7 @@ stateDiagram-v2
     Deactivated --> Deleted : Permanent Deletion
 ```
 
-### 📝 Explanation
+### Explanation
 
 A User Account begins in the **Registered** state after signing up.  
 Once the email is verified, the account becomes **Active**.  
@@ -168,7 +168,7 @@ This flow ensures a secure and flexible lifecycle for all system users.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 FR8 – The system shall manage user registration and verification.  
 FR9 – The system shall allow users to deactivate or delete their accounts.  
@@ -181,9 +181,9 @@ Sprint Task T1-10 – Develop user account deactivation and deletion process.
 
 ---
 
-## 📅 5. State Transition Diagram – Schedule
+## 5. State Transition Diagram – Schedule
 
-### 🎯 Object: Schedule
+### Object: Schedule
 
 This state diagram represents how shuttle schedules move through different phases from creation to archival or deletion.
 
@@ -197,7 +197,7 @@ stateDiagram-v2
     Archived --> Deleted : Admin Deletes
 ```
 
-### 📝 Explanation
+### Explanation
 
 A Schedule starts in the **Draft** state when it's first created.  
 Once finalized, it becomes **Published** and visible to users.  
@@ -209,7 +209,7 @@ This diagram supports maintaining up-to-date and organized shuttle operations.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 FR10 – The system shall allow administrators to create and update schedules.  
 FR11 – The system shall archive old schedules for reference.  
@@ -222,9 +222,9 @@ Sprint Task T1-12 – Implement publishing, updating, and archiving functions.
 
 ---
 
-## 🗺️ 6. State Transition Diagram – Route
+## 6. State Transition Diagram – Route
 
-### 🎯 Object: Route
+### Object: Route
 
 This state diagram outlines how a shuttle route evolves from creation to possible removal from the system.
 
@@ -238,7 +238,7 @@ stateDiagram-v2
     Inactive --> Removed : Deleted
 ```
 
-### 📝 Explanation
+### Explanation
 
 A Route starts in the **Planned** state when first designed.  
 Once approved, it becomes **Active** and available for use in scheduling.  
@@ -249,7 +249,7 @@ This model supports flexible updates to accommodate changing shuttle needs.
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 FR12 – The system shall manage the creation, editing, and deactivation of routes.  
 User Story US10 – As an Administrator, I want to manage routes so I can optimize travel across campus.  
@@ -260,9 +260,9 @@ Sprint Task T1-14 – Implement state tracking and approvals for route changes.
 
 ---
 
-## 📍 7. State Transition Diagram – Shuttle Location
+## 7. State Transition Diagram – Shuttle Location
 
-### 🎯 Object: Shuttle Location
+### Object: Shuttle Location
 
 This state diagram represents the real-time status of shuttle location reporting in the system.
 
@@ -276,7 +276,7 @@ stateDiagram-v2
     LostSignal --> Updating : Signal Restored
 ```
 
-### 📝 Explanation
+### Explanation
 
 The **Shuttle Location** starts in the **Not Reporting** state when the system has no data.  
 Once a GPS signal is received, it moves to **Updating**.  
@@ -289,7 +289,7 @@ This model ensures accurate handling of real-time and interrupted GPS data strea
 
 ---
 
-### 🔗 Related Functional Requirements / User Stories / Sprint Tasks
+### Related Functional Requirements / User Stories / Sprint Tasks
 
 FR2 – The system shall track the shuttle’s live location.  
 FR13 – The system shall detect and display signal status.  
