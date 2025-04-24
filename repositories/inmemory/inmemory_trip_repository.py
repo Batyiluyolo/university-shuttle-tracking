@@ -1,4 +1,3 @@
-
 # repositories/inmemory/inmemory_trip_repository.py
 
 from repositories.trip_repository import TripRepository
