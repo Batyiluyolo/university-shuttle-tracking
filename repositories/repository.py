@@ -1,4 +1,3 @@
-
 # repositories/repository.py
 
 from abc import ABC, abstractmethod
