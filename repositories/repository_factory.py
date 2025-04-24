@@ -1,4 +1,3 @@
-
 # repositories/repository_factory.py
 
 from repositories.inmemory.inmemory_trip_repository import InMemoryTripRepository
