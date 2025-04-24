@@ -1,4 +1,3 @@
-
 # repositories/trip_repository.py
 
 from repositories.repository import Repository
