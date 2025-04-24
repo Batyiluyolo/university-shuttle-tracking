@@ -1,4 +1,3 @@
-
 # tests/test_inmemory_trip_repository.py
 
 import unittest
