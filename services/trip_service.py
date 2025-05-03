@@ -1,4 +1,3 @@
-
 # services/trip_service.py
 
 from repositories.trip_repository import TripRepository
