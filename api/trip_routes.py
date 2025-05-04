@@ -1,4 +1,3 @@
-
 # api/trip_routes.py
 
 from fastapi import APIRouter, HTTPException
