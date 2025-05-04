@@ -1,11 +1,11 @@
 
-# 📘 API Documentation – Shuttle Tracking System
+# API Documentation – Shuttle Tracking System
 
 This document describes the available endpoints in the REST API for managing trips in the University Shuttle Tracking System.
 
 ---
 
-## ▶️ How to Run the API
+## How to Run the API
 
 1. Make sure you have **FastAPI** and **uvicorn** installed:
    ```bash
@@ -24,7 +24,7 @@ This document describes the available endpoints in the REST API for managing tri
 
 ---
 
-## 🚏 Trip Endpoints
+## Trip Endpoints
 
 | Method | Endpoint         | Description             |
 |--------|------------------|-------------------------|
@@ -35,15 +35,14 @@ This document describes the available endpoints in the REST API for managing tri
 
 ---
 
-### ✅ Example Request (POST /trips/)
+### Example Request (POST /trips/)
 ```
 /trips/?trip_id=T001&status=Scheduled&start_time=08:00&end_time=09:00&route_id=R1&shuttle_id=S1
 ```
 
 ---
 
-📌 **Tip:** Use `/docs` in your browser to test endpoints interactively.
+**Tip:** Use `/docs` in your browser to test endpoints interactively.
 
 ---
 
-Prepared by: **Luyolo Batyi**
