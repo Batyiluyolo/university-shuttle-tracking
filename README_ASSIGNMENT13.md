@@ -24,7 +24,9 @@ This project uses **GitHub Actions** to run automated tests on every push and pu
 
 ## Screenshot: Passing CI Workflow
 
-> _(Add a screenshot here showing a passing run from the Actions tab)_
+This screenshot shows a successful GitHub Actions run where all unit tests passed after pushing to the `main` branch.
+
+![Passing CI](docs/ci_workflow_success.png)
 
 ---
 
