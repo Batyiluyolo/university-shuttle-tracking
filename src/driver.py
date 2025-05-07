@@ -2,7 +2,7 @@
 
 # src/driver.py
 
-from user import User
+from src.user import User
 
 class Driver(User):
     def __init__(self, user_id, name, email, password, license_number, assigned_shuttle=None):
