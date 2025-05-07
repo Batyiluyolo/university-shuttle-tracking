@@ -1,7 +1,7 @@
 
 # src/student.py
 
-from user import User
+from src.user import User
 
 class Student(User):
     def __init__(self, user_id, name, email, password, faculty, year):
