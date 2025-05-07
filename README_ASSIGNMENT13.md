@@ -37,4 +37,4 @@ This screenshot shows a successful GitHub Actions run where all unit tests passe
 
 ---
 
-Prepared by: **Luyolo Batyi**
+
