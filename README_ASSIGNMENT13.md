@@ -4,7 +4,7 @@ This document describes the CI/CD setup implemented for the University Shuttle T
 
 ---
 
-## ✅ Continuous Integration (CI)
+## Continuous Integration (CI)
 
 This project uses **GitHub Actions** to run automated tests on every push and pull request to the `main` branch.
 
@@ -15,24 +15,23 @@ This project uses **GitHub Actions** to run automated tests on every push and pu
 
 ---
 
-## 🧪 How to Trigger CI
+## How to Trigger CI
 
 - Push any change to the `main` branch
 - Example: editing `README.md` or pushing a code file
 
 ---
 
-## ✅ Screenshot: Passing CI Workflow
+## Screenshot: Passing CI Workflow
 
 > _(Add a screenshot here showing a passing run from the Actions tab)_
 
 ---
 
-## 🏁 Status Badge
+## Status Badge
 
-![CI Status](https://github.com/YOUR_USERNAME/university-shuttle-tracking/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/Batyiluyolo/university-shuttle-tracking/actions/workflows/ci.yml/badge.svg)
 
-> 🔁 Replace `YOUR_USERNAME` with your GitHub username
 
 ---
 
