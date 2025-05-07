@@ -4,7 +4,7 @@ This document describes the CI/CD setup implemented for the University Shuttle T
 
 ---
 
-## Continuous Integration (CI)
+##Continuous Integration (CI)
 
 This project uses **GitHub Actions** to run automated tests on every push and pull request to the `main` branch.
 
