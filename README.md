@@ -10,3 +10,5 @@ The University Shuttle Tracking System is designed to provide real-time tracking
 
 ## Contributors
 - Luyolo Batyi
+
+<!-- Trigger CI test run -->
