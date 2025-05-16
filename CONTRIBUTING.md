@@ -1,11 +1,10 @@
-
-# 🛠️ Contributing to the University Shuttle Tracking Web App
+# Contributing to the University Shuttle Tracking Web App
 
 Thank you for considering contributing to this open source project! We welcome bug reports, feature suggestions, and code contributions.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Fork the repository**
 2. **Clone your fork** to your local machine:
@@ -24,7 +23,7 @@ Thank you for considering contributing to this open source project! We welcome b
 
 ---
 
-## 📄 Project Structure
+## Project Structure
 
 | Folder | Description |
 |--------|-------------|
@@ -38,9 +37,9 @@ Thank you for considering contributing to this open source project! We welcome b
 
 ---
 
-## 🌱 How to Contribute
+## How to Contribute
 
-### 🔧 Bug Fixes / Enhancements
+### Bug Fixes / Enhancements
 1. Open an Issue and describe the problem
 2. Assign yourself or ask to be assigned
 3. Create a new branch:  
@@ -48,17 +47,17 @@ Thank you for considering contributing to this open source project! We welcome b
    git checkout -b fix/your-branch-name
    ```
 
-### 🧪 Run Tests Before Committing
+### Run Tests Before Committing
 Please run all tests before submitting a PR.
 
-### 💬 Pull Requests
+### Pull Requests
 - Use clear commit messages
 - Reference the related issue in your PR description
 - Be respectful in reviews and feedback
 
 ---
 
-## 🎯 Labels for First-Timers
+## Labels for First-Timers
 
 We welcome first-time contributors! Look for issues labeled:
 - `good-first-issue`
@@ -66,4 +65,4 @@ We welcome first-time contributors! Look for issues labeled:
 
 ---
 
-Prepared by: **Luyolo Batyi**
+
