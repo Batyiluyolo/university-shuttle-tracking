@@ -1,11 +1,10 @@
-
-# 🛣️ Project Roadmap – University Shuttle Tracking Web App
+# Project Roadmap – University Shuttle Tracking Web App
 
 This roadmap outlines potential enhancements and future goals for the project.
 
 ---
 
-## ✅ Short-Term Goals (1–2 Weeks)
+## Short-Term Goals (1–2 Weeks)
 
 - [x] Implement service layer using FastAPI
 - [x] Set up RESTful API routes for trip management
@@ -15,7 +14,7 @@ This roadmap outlines potential enhancements and future goals for the project.
 
 ---
 
-## 🚀 Mid-Term Goals (1–2 Months)
+## Mid-Term Goals (1–2 Months)
 
 - [ ] Add search/filter options to trip list view
 - [ ] Support role-based access (Driver, Admin, Student)
@@ -25,7 +24,7 @@ This roadmap outlines potential enhancements and future goals for the project.
 
 ---
 
-## 🌍 Long-Term Goals (3+ Months)
+## Long-Term Goals (3+ Months)
 
 - [ ] Create real-time shuttle tracking using WebSocket or polling
 - [ ] Integrate student login via OAuth or university SSO
@@ -35,7 +34,7 @@ This roadmap outlines potential enhancements and future goals for the project.
 
 ---
 
-## 🤝 Open Source Collaboration
+## Open Source Collaboration
 
 We welcome ideas, PRs, and suggestions from anyone interested in transport systems, scheduling apps, or public service tools.
 
@@ -43,4 +42,3 @@ To contribute, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ---
 
-Prepared by: **Luyolo Batyi**
