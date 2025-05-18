@@ -1,25 +1,24 @@
-
-# 🗳️ Voting Results – Assignment 14
+# Voting Results – Assignment 14
 
 This document records the peer engagement results for the open source collaboration phase of the University Shuttle Tracking Web App.
 
 ---
 
-## ⭐ GitHub Stars
+## GitHub Stars
 
 **Total Stars Received:** 15  
 > Indicates how many classmates liked or supported the project.
 
 ---
 
-## 🍴 GitHub Forks
+## GitHub Forks
 
 **Total Forks Received:** 13  
 > Shows how many peers cloned the repo to explore or experiment with the project.
 
 ---
 
-## 💬 Feedback Received
+## Feedback Received
 
 - Several classmates starred and forked the repository
 - Some contributed issues and reviewed the README
@@ -27,11 +26,10 @@ This document records the peer engagement results for the open source collaborat
 
 ---
 
-## 🔗 Repository Shared
+## Repository Shared
 
 **Public Repo Link:**  
 [https://github.com/Batyiluyolo/university-shuttle-tracking](https://github.com/Batyiluyolo/university-shuttle-tracking)
 
 ---
 
-Prepared by: **Luyolo Batyi**
